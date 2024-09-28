@@ -1,0 +1,45 @@
+1. Blister dataset of 377 images:
+
+!pip install roboflow
+
+
+from roboflow import Roboflow
+rf = Roboflow(api_key="iBObzJ0LRTotZRuVELJB")
+project = rf.workspace("sastra-project").project("blister")
+dataset = project.version(2).download("yolov7")
+
+2. Blister package 
+
+!pip install roboflow
+
+from roboflow import Roboflow
+rf = Roboflow(api_key="iBObzJ0LRTotZRuVELJB")
+project = rf.workspace("sastra-project").project("blister-package-identification-system")
+dataset = project.version(5).download("yolov7")
+
+3. Defect Dataset (new created dataset + existing images) - 622 images
+
+!pip install roboflow
+
+from roboflow import Roboflow
+rf = Roboflow(api_key="KG4W68gcQVSLEeOuYTSR")
+project = rf.workspace("sastra-pgom1").project("defect-detection-kauy9")
+dataset = project.version(3).download("yolov7")
+
+4. Defect Dataset( image dataset available in roboflow) 
+
+!pip install roboflow
+
+from roboflow import Roboflow
+rf = Roboflow(api_key="KG4W68gcQVSLEeOuYTSR")
+project = rf.workspace("xuanmanhyb1999-gmail-com").project("dataset-789em")
+dataset = project.version(6).download("yolov7")
+
+5. Defect Dataset ( 515 images of single table defect)
+
+!pip install roboflow
+
+from roboflow import Roboflow
+rf = Roboflow(api_key="KG4W68gcQVSLEeOuYTSR")
+project = rf.workspace("xuanmanhyb1999-gmail-com").project("newtest-yyi2c")
+dataset = project.version(2).download("yolov7")
