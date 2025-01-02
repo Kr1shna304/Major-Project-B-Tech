@@ -40,7 +40,7 @@ This project focuses on developing a deep learning-based automated visual inspec
 ## Technologies Used
 - **YOLOv7:** Advanced real-time object detection algorithm.
 - **Python:** For implementing the deep learning models.
-- **Roboflow:** Used for managing datasets and annotations.
+- **Roboflow:** Used for managing datasets and annotations. This can be also used to train some models provided by Roboflow on your own dataset.
 - **GPU Acceleration:** Leveraged Tesla GPUs for faster training.
 
 ## Future Plans
